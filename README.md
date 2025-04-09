@@ -137,5 +137,3 @@ Este projeto é de uso interno da Sudema, criado para fins de aprendizado e inte
 ## ✨ Autor
 
 Desenvolvido por **[Joao Lucas Goncalves]**, estagiário backend na Sudema 🌱
-
-```
