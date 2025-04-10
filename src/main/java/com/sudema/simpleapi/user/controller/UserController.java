@@ -46,4 +46,10 @@ public class UserController {
         userService.delete(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/top100")
+    public ResponseEntity<List<Object>> getTop100Processos() {
+        List<Object> processos = userService.getTop100Processos();
+        return ResponseEntity.ok(processos);
+    }
 }

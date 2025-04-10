@@ -47,4 +47,8 @@ public class UserService {
         user.setRole(dto.getRole());
         return userMapper.toDto(userRepository.save(user));
     }
+
+    public List<Object> getTop100Processos() {
+        return userRepository.findTop100ProcessosByOrderByIdDesc();
+    }
 }
